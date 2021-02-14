@@ -1,3 +1,20 @@
-{
+/*{
     "java.configuration.updateBuildConfiguration": "interactive"
+}*/
+{
+    "jenkins-runner.jobs": {
+        "test-vsCode": {
+            "isDefault": true,
+            "runWith": "pipelines-8081",
+            "name": "test-vsCode",
+        }
+    },
+    "jenkins-runner.hostConfigs": {
+        "pipelines-8081": {
+            "url": "http://localhost:8081",
+            "user": "lavanyaundavilli",
+            "password": "AHSep@#14",
+            "useCrumbIssuer": true
+        }
+    }
 }
