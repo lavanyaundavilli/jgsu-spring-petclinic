@@ -4,9 +4,9 @@
 {
     "jenkins-runner.jobs": {
         "test-vsCode": {
-            "isDefault": true,
             "runWith": "pipelines-8081",
             "name": "test-vsCode",
+            "isDefault": true
         }
     },
     "jenkins-runner.hostConfigs": {
